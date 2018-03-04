@@ -1,6 +1,6 @@
 {
   "name": "vokedex",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "description": "A Pokédex using Vue.js and PokéAPI",
   "main": "client/index.js",
   "scripts": {
