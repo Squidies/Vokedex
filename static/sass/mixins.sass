@@ -1,0 +1,23 @@
+/**
+ * Mixins
+ */
+
+//- Container
+@mixin container
+  width: 100%
+  max-width: 1200px
+  min-height: 100%
+  margin: 0 auto
+
+//- Clearfix
+@mixin cf
+  &:before,
+  &:after
+    content: " ";
+    display: table;
+
+  &:after
+    clear: both;
+
+@mixin clearfix
+  @include cf

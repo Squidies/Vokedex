@@ -1,0 +1,36 @@
+@keyframes shake
+  from,
+  to
+    transform: rotate(0) translate3d(0, 0, 0)
+
+  10%,
+  30%,
+  50%,
+  70%,
+  90%
+    transform: rotate(-25deg) translate3d(-10px, 0, 0)
+
+  20%,
+  40%,
+  60%,
+  80%
+    transform: rotate(25deg) translate3d(10px, 0, 0)
+
+.shake
+  animation-name: shake
+  animation-timing-function: ease-out
+  animation-duration: 2s
+  animation-iteration-count: infinite
+
+
+@keyframes spin
+  from
+    transform: rotate(0)
+  to
+    transform: rotate(360deg)
+
+.spin
+  animation-name: spin
+  animation-timing-function: linear
+  animation-duration: 2s
+  animation-iteration-count: infinite

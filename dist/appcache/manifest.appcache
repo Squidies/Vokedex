@@ -1,0 +1,27 @@
+CACHE MANIFEST
+#ver:2018-3-4 11:10:11
+#plugin:4.9.0
+
+CACHE:
+/vendor.2bb94bf8.js
+/client.af2669b4.js
+/manifest.91f5b328.js
+/styles.468e7207.css
+/
+/fonts/pokemon/pokemon_solid-webfont.ttf
+/favicon.ico
+/fonts/pokemon/pokemon_solid-webfont.woff
+/fonts/pokemon/pokemon_solid-webfont.woff2
+/images/bg_vokedex_opt.svg
+/images/vokedex_lg_opt.svg
+/images/vpb-opt.svg
+/sass/animations.sass
+/sass/mixins.sass
+/sass/vars.sass
+/vue2-scrollbar.css
+
+NETWORK:
+*
+
+FALLBACK:
+/ /
